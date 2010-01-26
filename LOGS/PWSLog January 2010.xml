@@ -1,0 +1,713 @@
+<log>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>05</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>12</hour>
+			<minute>28</minute>
+		</start_time>
+		<duration>6656</duration>
+		<note>
+			Plan voor pws
+			Bedenken van hoe we buttons maken en gebruiken,  127 lines gecode. 
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>05</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>17</hour>
+			<minute>02</minute>
+		</start_time>
+		<duration>15130</duration>
+		<note>
+			Button system is af. :D hurray for us
+			Speldesign
+		</note>
+</entry>	
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>05</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>20</hour>
+			<minute>02</minute>
+		</start_time>
+		<duration>6914</duration>
+		<note>
+			uPedia gecombineerd met onze nieuwe ButtonSys. Het werkt :). Tot nu toe ondersteuning voor 2 rijen van 6 knoppen, en een quit knop natuurlijk
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>05</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>21</hour>
+			<minute>14</minute>
+		</start_time>
+		<duration>2270</duration>
+		<note>
+			Game design
+			Virus trait sheet
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>06</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>12</hour>
+			<minute>44</minute>
+		</start_time>
+		<duration>14959</duration>
+		<note>
+			Game design Virus trait sheet - Verder uitwerken
+			ButtonSys compleet herschreven zodat het makkelijker in gebruik is en het gebruikt op zichzelf geen ruimte
+			aantal buttons limiet is weggehaald, betere text handling. 
+		</note>
+</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>06</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>17</hour>
+			<minute>08</minute>
+		</start_time>
+		<duration>7099</duration>
+		<note>
+			uPedia geupdate voor button class.
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>07</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>14</hour>
+			<minute>26</minute>
+		</start_time>
+		<duration>16122</duration>
+		<note>
+			PA_BoxText(..) verbeterd - BoxText(..)
+			Pagina's van een text bestand laden! hurray!
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>07</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>18</hour>
+			<minute>55</minute>
+		</start_time>
+		<duration>11461</duration>
+		<note>
+			PA_BoxText gebruiks manier uitgevonden xD
+		</note>
+</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>07</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>19</hour>
+			<minute>54</minute>
+		</start_time>
+		<duration>5803</duration>
+		<note>
+			Nieuwe BoxText geintegreerd, bijna klaar
+		</note>
+</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>08</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>20</hour>
+			<minute>00</minute>
+		</start_time>
+		<duration>9491</duration>
+		<note>
+			uPedia sterk verbeterd en hernoemt naar TextReader. We hebben besloten om natuurlijk een uPedia te maken met weetjes over virussen en dat soort dingen in het echt, maar we gaan ook een in-game handleiding maken met behulp van de TextReader. TextReader bevat nu nog maar 4 functies.
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>08</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>21</hour>
+			<minute>21</minute>
+		</start_time>
+		<duration>4760</duration>
+		<note>
+			Meerdere pages displayen, final code. 
+			Weer boxtext aanpassen...
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>08</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>22</hour>
+			<minute>57</minute>
+		</start_time>
+		<duration>1788</duration>
+		<note>
+			BoxText is nu wel klaar.. Hoop ik
+		</note>
+</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>08</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>23</hour>
+			<minute>03</minute>
+		</start_time>
+		<duration>204</duration>
+		<note>
+			Logboeken samenvoegen.
+		</note>
+</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>08</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>23</hour>
+			<minute>19</minute>
+		</start_time>
+		<duration>3784</duration>
+		<note>
+			TextReader, ButtonSystem en BoxTextRevised samenvoegen.
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>08</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>23</hour>
+			<minute>32</minute>
+		</start_time>
+		<duration>9523</duration>
+		<note>
+			BoxText is nu wel klaar.. serieus
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>09</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>11</hour>
+			<minute>30</minute>
+		</start_time>
+		<duration>3613</duration>
+		<note>
+			Text reader gefixed
+		</note>
+</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>09</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>11</hour>
+			<minute>48</minute>
+		</start_time>
+		<duration>13554</duration>
+		<note>
+			SelfMadeLibs.rar is af; Het eerste gedeelte van het spel (het saaie gedeelte eigenlijk -.-) is AF:D
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>10</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>00</hour>
+			<minute>16</minute>
+		</start_time>
+		<duration>3601</duration>
+		<note>
+			Leren
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>13</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>18</hour>
+			<minute>34</minute>
+		</start_time>
+		<duration>16542</duration>
+		<note>
+			c++ skills met classes weer geupdate. 
+			een highscore library geschreven waarbij je makkelijk een highscorelist kunt maken en waarbij nieuwe scores automatisch gerangschikt worden. Variabele lijstlengte. 
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>19</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>08</hour>
+			<minute>45</minute>
+		</start_time>
+		<duration>4189</duration>
+		<note>
+			Dynamic Saving and Loading
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>19</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>12</hour>
+			<minute>27</minute>
+		</start_time>
+		<duration>7256</duration>
+		<note>
+			Mick - Uitleg bij dynamic saving and loading
+			Jelle - Verklarende woordenlijst
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>19</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>15</hour>
+			<minute>16</minute>
+		</start_time>
+		<duration>3785</duration>
+		<note>
+			Mini c++ cursus geschreven
+		</note>
+</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>19</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>22</hour>
+			<minute>07</minute>
+		</start_time>
+		<duration>4740</duration>
+		<note>
+			Verklarende woordenlijst afgemaakt
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>20</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>12</hour>
+			<minute>24</minute>
+		</start_time>
+		<duration>7214</duration>
+		<note>
+			Spelontwikkeling voor de DS. 
+			Het schrijven van de inhoud van string objects ipv de gevaarlijke char arrays
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>20</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>14</hour>
+			<minute>44</minute>
+		</start_time>
+		<duration>6136</duration>
+		<note>
+			Minicursus afgeschreven
+			Voorbladen, voorwoord, specs, programmeeromgeving
+			const correctness opgelost en voor onszelf duidelijk gemaakt
+		</note>
+</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>21</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>09</hour>
+			<minute>30</minute>
+		</start_time>
+		<duration>3492</duration>
+		<note>
+			Saving functionality HSlib geprobeerd werkend te krijgen
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>21</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>11</hour>
+			<minute>43</minute>
+		</start_time>
+		<duration>2907</duration>
+		<note>
+			Saving/loading functionality successfully implemented
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>21</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>15</hour>
+			<minute>13</minute>
+		</start_time>
+		<duration>20555</duration>
+		<note>
+			Hele Demo gecompileerd van ALLE afzonderlijke files. Het duurde even, maar alles staat nu op https://sites.google.com/site/uwarspws/FirstDemo.nds Waar het dan ook blijft staan
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>21</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>20</hour>
+			<minute>52</minute>
+		</start_time>
+		<duration>10440</duration>
+		<note>
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARGHHHHHH waarom doet basic code het niet meer :S:S:S:S ik word gek -_-
+			m_text = new char2
+			werkt niet...
+			
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>22</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>10</hour>
+			<minute>17</minute>
+		</start_time>
+		<duration>3545</duration>
+		<note>
+			Menu wat completere look gegeven, met meer knoppen etc
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>23</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>02</hour>
+			<minute>34</minute>
+		</start_time>
+		<duration>6898</duration>
+		<note>
+			Darn you buttonlib...
+			Hurray opnieuw iets gedaan, hetzelfde resultaat. Dit was het raarste probleem ooit -> de oplossing: opnieuw alles doen. 
+			TextReader.h en cpp verbeterd
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>24</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>13</hour>
+			<minute>03</minute>
+		</start_time>
+		<duration>11743</duration>
+		<note>
+			MSN overleg van de main game
+			16c Text geprobeerd uit te pluizen
+			Template geupdate
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>24</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>13</hour>
+			<minute>42</minute>
+		</start_time>
+		<duration>25845</duration>
+		<note>
+			Blob Class geschreven. Honger
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>24</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>18</hour>
+			<minute>52</minute>
+		</start_time>
+		<duration>16081</duration>
+		<note>
+			Ipsum lorum alor si amet ofzo..
+			Euhm, ik heb echt veel dingen gedaan. Nieuwe template gemaakt, dingen bedacht met jelle. COMMENT FROM LOGMAKER: Please refrain from posting your emotions
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>25</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>15</hour>
+			<minute>18</minute>
+		</start_time>
+		<duration>12179</duration>
+		<note>
+			UnitBase geschreven. Blob bijna omgezet
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>25</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>19</hour>
+			<minute>13</minute>
+		</start_time>
+		<duration>10490</duration>
+		<note>
+			SVN met googlecode werkend gekregen. Mick proberen te overtuigen van het nu ervan.
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>25</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>20</hour>
+			<minute>46</minute>
+		</start_time>
+		<duration>8502</duration>
+		<note>
+			Cell graphics gemaakt en CellSelector graphic gemaakt. 
+			Verbeteringen aangebracht aan blob, cell en UnitBase class
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>26</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>07</hour>
+			<minute>42</minute>
+		</start_time>
+		<duration>1987</duration>
+		<note>
+			UnitBase verbeteringen aanbrengen, gisteravond bedacht:O
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>26</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>08</hour>
+			<minute>45</minute>
+		</start_time>
+		<duration>27049</duration>
+		<note>
+			TUDelft proefdag
+			Email adres AI leraar gekregen
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>26</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>16</hour>
+			<minute>23</minute>
+		</start_time>
+		<duration>6627</duration>
+		<note>
+			SVN geinstalleerd
+			Een paar directories gemaakt
+			Kijken hoe het werkt
+			Instellingen, instellingen instellingen :O
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>26</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>18</hour>
+			<minute>13</minute>
+		</start_time>
+		<duration>376</duration>
+		<note>
+			ETENSTIJD geen tijd voor log comments
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>26</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>20</hour>
+			<minute>40</minute>
+		</start_time>
+		<duration>7121</duration>
+		<note>
+			Svn gesynched; WinDiff erop gezet om code te vergelijken.
+		</note>
+	</entry>
+</log>
