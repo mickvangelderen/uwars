@@ -1,0 +1,116 @@
+<html>
+<head>
+</head>
+
+
+<body>
+
+
+  <table>
+
+  <tr>
+    <td width="460">
+  <script type="text/javascript">
+
+
+  var d=new Date();
+
+  var monthnames=new Array(12);
+  monthnames[0]="January";
+  monthnames[1]="February";
+  monthnames[2]="March";
+  monthnames[3]="April";
+  monthnames[4]="May";
+  monthnames[5]="June";
+  monthnames[6]="July";
+  monthnames[7]="August";
+  monthnames[8]="September";
+  monthnames[9]="October";
+  monthnames[10]="November";
+  monthnames[11]="December";
+
+  var stdyear = d.getYear();
+  stdyear = stdyear + 1900;
+  var year = prompt("Welk jaar wil je zien?",stdyear);
+  var month = prompt("Wat is de maand volgens jou dan?",monthnames[d.getMonth()]);
+  var logname = ("PWSLog " + month + " " + year +".xml");
+  alert(logname);
+  var xmlDoc;
+
+
+  if (window.XMLHttpRequest)
+  {
+  xmlDoc=new window.XMLHttpRequest();
+  
+  xmlDoc.open("GET",logname,false);
+  xmlDoc.send("");
+  xmlDoc=xmlDoc.responseXML;
+  }
+  // IE 5 and IE 6
+  else if (ActiveXObject("Microsoft.XMLDOM"))
+  {
+  xmlDoc=new ActiveXObject("Microsoft.XMLDOM");
+  xmlDoc.async=false;
+  
+  xmlDoc.load(logname);
+  }
+
+  var totalDuration = 0;
+  var x=xmlDoc.getElementsByTagName("entry");
+
+  
+  document.write("<b><i><u><h1>Logboek " + month + " " + year + "</h1></u></i></b><br>");
+for (i=0;i<x.length;i++)
+{
+	var y=x[i].getElementsByTagName("user");
+
+	document.write("<b>Datum:</b>");
+	document.write(x[i].getElementsByTagName("day")[0].childNodes[0].nodeValue + " ");
+  document.write(month + " ");
+  document.write(year + "<br>");
+  
+	var durtemp = x[i].getElementsByTagName("duration")[0].childNodes[0].nodeValue;
+
+  document.write('<b>Gebruikers:</b>');
+	
+  for (j=0;j<y.length;j++)
+	{
+		document.write(y[j].childNodes[0].nodeValue);
+    if((j+1)<y.length){
+    document.write(" & ");
+    }
+	}
+    document.write("<br><b>Vanaf ");
+	  document.write(x[i].getElementsByTagName("start_time")[0].getElementsByTagName("hour")[0].childNodes[0].nodeValue + ":" + x[i].getElementsByTagName("start_time")[0].getElementsByTagName("minute")[0].childNodes[0].nodeValue);
+    document.write("</b><br>");
+	
+  document.write(x[i].getElementsByTagName("note")[0].childNodes[0].nodeValue);
+  document.write("<br>");
+	document.write("Dit duurde in totaal ");
+ 
+  var durat = durtemp * (1/60);
+  document.write(Math.round(durat));
+  document.write(" minuten.<br><br>");
+  
+  durtemp = durtemp * y.length;
+  totalDuration = totalDuration + durtemp;
+
+
+}
+
+
+
+document.write("<br><b>Totale tijd: " + Math.round(totalDuration/3600) + " uur</b><br>");
+
+</script>
+      <br>
+        <a href="#" onclick="window.print();return false;">Uitprinten</a>
+      </td>
+</tr>
+</table>
+
+</body>
+</html>
+	
+
+	

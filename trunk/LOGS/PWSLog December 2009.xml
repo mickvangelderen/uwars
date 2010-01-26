@@ -1,0 +1,211 @@
+<log>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>01</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>14</hour>
+			<minute>05</minute>
+		</start_time>
+		<duration>11370</duration>
+		<note>
+      Verslag AI afgemaakt.
+      Verslag Spelanalyse verbetert.
+      Geprobeerd een .gif af te spelen.
+      2 converters en PS later geen succes.
+      2 Backgrounds gemaakt.
+      8 Buttons gemaakt.
+      Op zoek gegaan naar menu structuur.
+      Oude structuur bekeken maar niet gesnapt. Nader onderzoek vereist.
+    </note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>01</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>17</hour>
+			<minute>53</minute>
+		</start_time>
+		<duration>2133</duration>
+		<note>
+			Log file format veranderd, en aangepast in een heleboel logs. 
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>01</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>19</hour>
+			<minute>02</minute>
+		</start_time>
+		<duration>8976</duration>
+		<note>
+			Logfiles bestuderen om een werkend XML/HTML gebeuren te maken.
+			De html-Viewer is nu af, die is dan ook gebruikt om dit te lezen.
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>01</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>21</hour>
+			<minute>33</minute>
+		</start_time>
+		<duration>472</duration>
+		<note>
+			Print knop toevoegen aan logboek pagina
+		</note>
+	</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>04</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>11</hour>
+			<minute>34</minute>
+		</start_time>
+		<duration>4533</duration>
+		<note>
+			Onderzoek gedaan naar graphics. Manieren van opslag en bewerken. 
+			http://www.coranac.com/tonc/text/bitmaps.htm#ssec-data-align
+			http://www.coranac.com/tonc/text/bitmaps.htm
+			DS background systeem: http://patater.com/files/projects/manual/manual.html#id2612885
+			
+		</note>
+	</entry>
+
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>15</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>18</hour>
+			<minute>03</minute>
+		</start_time>
+		<duration>8999</duration>
+		<note>
+			Bezig met uitvinden hoe geanimeerde .gif bestanden af te spelen in PAlib. Paar kleine bugs gevonden, maar dat is was framelag
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>21</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>15</hour>
+			<minute>07</minute>
+		</start_time>
+		<duration>607</duration>
+		<note>
+			Begonnen met artikel "De vormen van AI"
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>23</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>15</hour>
+			<minute>07</minute>
+		</start_time>
+		<duration>22082</duration>
+		<note>
+			uPedia begonnen en geloof het of niet, afgemaakt o.O
+		</note>
+	</entry>
+<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>28</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>12</hour>
+			<minute>56</minute>
+		</start_time>
+		<duration>1601</duration>
+		<note>
+			cprogramming.com
+			Memory leaks:
+			http://cprogramming.com/tutorial/memory_debugging_parallel_inspector.html
+			tutorial 9 tm 11
+		</note>
+	</entry>
+<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>28</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>13</hour>
+			<minute>49</minute>
+		</start_time>
+		<duration>13261</duration>
+		<note>
+			uPedia omgezet in een header file en een cpp file, zodat we het nu bij elk project kunnen gebruiken. Er moet volgens mij nog een quit functie bij, maar eerst even pizza eten :P
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>28</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>18</hour>
+			<minute>46</minute>
+		</start_time>
+		<duration>4564</duration>
+		<note>
+			Quit Functie voor uPedia gemaakt, die de sprites en palletes ook delete uit het geheugen. Anders zou het programma vastlopen na een poosje.
+		</note>
+	</entry>
+	<entry>
+		<user>Jelle Licht</user>
+		<date>
+			<day>29</day>
+			<month_name_short>Dec</month_name_short>
+			<year>2009</year>
+		</date>
+		<start_time>
+			<hour>00</hour>
+			<minute>58</minute>
+		</start_time>
+		<duration>1955</duration>
+		<note>
+			Geprobeerd libnds en PAlib te combineren. Niet gelukt, vooral omdat ze beiden een andere MakeFile gebruiken. 
+		</note>
+	</entry>
+</log>

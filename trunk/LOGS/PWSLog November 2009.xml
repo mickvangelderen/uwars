@@ -1,0 +1,230 @@
+<log>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <user>Jelle Licht</user>
+    <date>
+      <day>09</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>09</hour>
+      <minute>34</minute>
+    </start_time>
+    <duration>2176</duration>
+    <note>
+      Plan van aanpak herschrijven.
+      Info evolutie
+      Info Bacteriephagen
+      Info spellen maken voor ds
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <user>Jelle Licht</user>
+    <date>
+      <day>17</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>19</hour>
+      <minute>05</minute>
+    </start_time>
+    <duration>3803</duration>
+    <note>
+      Schrijven van een Menu class voor in het spel.
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>25</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>08</hour>
+      <minute>56</minute>
+    </start_time>
+    <duration>4149</duration>
+    <note>
+      Bedenken van een spelmechanisme
+      Bedenken van een menu stijl
+      Bedenken van de manier van scrollen en selecteren
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>25</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>12</hour>
+      <minute>06</minute>
+    </start_time>
+    <duration>2854</duration>
+    <note>
+      Bedenken van een spelmechanisme
+      Bedenken van een menu stijl
+      Bedenken van de manier van scrollen en selecteren
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>25</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>15</hour>
+      <minute>54</minute>
+    </start_time>
+    <duration>3754</duration>
+    <note>
+      Graphics
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <user>Jelle Licht</user>
+    <date>
+      <day>25</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>14</hour>
+      <minute>26</minute>
+    </start_time>
+    <duration>9560</duration>
+    <note>
+      Onderzoek naar geluid op ds
+      problemen........
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>25</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>21</hour>
+      <minute>06</minute>
+    </start_time>
+    <duration>7519</duration>
+    <note>
+      Research naar templates
+      Maken van een template voor een nds project.
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>26</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>15</hour>
+      <minute>49</minute>
+    </start_time>
+    <duration>3703</duration>
+    <note>
+      Werkend project compilen [16:04]
+      Visual C++ zo instellen dat ik met 1 druk op de knop kan compilen en met nog een druk de gecompileerde .nds file kan uitvoeren via de NO$GBA emulator [16:17]
+      Uitzoeken bij EFS examples hoe je het gebruikt
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>26</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>17</hour>
+      <minute>44</minute>
+    </start_time>
+    <duration>3467</duration>
+    <note>
+      template werkt! compleet
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>27</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>17</hour>
+      <minute>39</minute>
+    </start_time>
+    <duration>3846</duration>
+    <note>
+      Leert PAlib te gebruiken.
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>27</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>20</hour>
+      <minute>12</minute>
+    </start_time>
+    <duration>4591</duration>
+    <note>
+      De template weer aangepast, definitief opgeslagen, in een .rar gedaan en gemaild
+      Een probleem met het hercompilen van je project in Visual C++ opgelost door te kijken naar de oude makefile van de vorige PAlib versie, en een stukje code in de nieuwe generale makefile te zetten.
+      De oplossing voor het bovenstaande probleem op de PAlib wiki gepost.
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <date>
+      <day>28</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>20</hour>
+      <minute>11</minute>
+    </start_time>
+    <duration>11277</duration>
+    <note>
+      Onderzoek naar achtergronden menu's e.d. bij spellen.
+      Stukje schrijven hierover voor bij het profielwerkstuk.
+      Game recensies lezen om te kijken waar de journalisten op afknappen.
+      C++ Module II gelezen over Impuls, collisions e.d.
+    </note>
+  </entry>
+  <entry>
+    <user>Mick van Gelderen</user>
+    <user>Jelle Licht</user>
+    <date>
+      <day>30</day>
+      <month_name_short>Nov</month_name_short>
+      <year>2009</year>
+    </date>
+    <start_time>
+      <hour>18</hour>
+      <minute>20</minute>
+    </start_time>
+    <duration>12744</duration>
+    <note>
+      Ai verslag geschreven. Flashscreen gemaakt
+    </note>
+  </entry>
+</log>
