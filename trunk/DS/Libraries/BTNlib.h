@@ -44,5 +44,3 @@ public:
 
 	bool IsTouched();
 };
-
-#include "BTNlib.cpp"
