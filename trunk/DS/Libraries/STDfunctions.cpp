@@ -103,17 +103,17 @@ u8 CreateSpriteEx(u8 screen, void* obj_data, u8 obj_shape, u8 obj_size, u8 color
 	PA_CreateSpriteEx(screen, id, obj_data, obj_shape, obj_size, color_mode, palette, obj_mode, mosaic, hflip, vflip, prio, dblsize, x, y);
 	return id;
 }
-void RemoveSprite(u8 screen, u8 obj_id){
-	FreeSpriteId(screen, obj_id);
-	PA_DeleteSprite(screen, obj_id);
+void DestroySprite(u8 screen, u8 spriteId){
+	FreeSpriteId(screen, spriteId);
+	PA_DeleteSprite(screen, spriteId);
 }
-u8 LoadSpritePal(u8 screen, void* palette){
+u8 CreateSpritePalette(u8 screen, void * const palette){
 	u8 id = GetPalId(screen);
 	PA_LoadSpritePal(screen, id, palette);
 	return id;
 }
-void RemovePal(u8 screen, u8 obj_id){
-	FreePalId(screen, obj_id);
+void DestroySpritePalette(u8 screen, u8 paletteId){
+	FreePalId(screen, paletteId);
 }
 
 //--misc--
