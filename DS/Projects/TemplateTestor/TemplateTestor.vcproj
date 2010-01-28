@@ -47,7 +47,15 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath=".\source\Blob.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\build.bat"
+				>
+			</File>
+			<File
+				RelativePath=".\source\Cell.cpp"
 				>
 			</File>
 			<File
@@ -58,12 +66,28 @@
 				RelativePath=".\source\main.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\source\Selection.cpp"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<File
+				RelativePath=".\include\Blob.h"
+				>
+			</File>
+			<File
+				RelativePath=".\include\Cell.h"
+				>
+			</File>
+			<File
+				RelativePath=".\include\Selection.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"
@@ -104,15 +128,15 @@
 			>
 		</File>
 		<File
-			RelativePath=".\include\Readme.txt"
-			>
-		</File>
-		<File
 			RelativePath=".\music\Readme.txt"
 			>
 		</File>
 		<File
 			RelativePath=".\efsroot\Readme.txt"
+			>
+		</File>
+		<File
+			RelativePath=".\include\Readme.txt"
 			>
 		</File>
 	</Files>

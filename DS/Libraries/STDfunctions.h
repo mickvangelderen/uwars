@@ -38,19 +38,19 @@ u8 CreateSpriteEx(u8 screen, void* obj_data, u8 obj_shape, u8 obj_size, u8 color
 
 void DestroySprite(u8 screen, u8 palette);
 inline void RemoveSprite(u8 screen, u8 spriteId){
-#pragma message(__LOC__"Deprecated function name, use DestroySprite(screen, spriteId) instead")
+//#pragma message(__LOC__"Deprecated function name, use DestroySprite(screen, spriteId) instead")
 	DestroySprite(screen, spriteId);
 }
 
 u8 CreateSpritePalette(u8 screen, void * const palette);
 inline u8 LoadSpritePal(u8 screen, void * const palette){
-#pragma message(__LOC__"Deprecated function name, use CreateSpritePalette(screen, palette) instead")
+//#pragma message(__LOC__"Deprecated function name, use CreateSpritePalette(screen, palette) instead")
 	return CreateSpritePalette(screen, palette);
 }
 
 void DestroySpritePalette(u8 screen, u8 paletteId);
 inline void RemovePal(u8 screen, u8 paletteId){
-#pragma message(__LOC__"Deprecated function name, use DestroySpritePalette(screen, paletteId) instead")
+//#pragma message(__LOC__"Deprecated function name, use DestroySpritePalette(screen, paletteId) instead")
 	DestroySpritePalette(screen, paletteId);
 }
 
@@ -64,4 +64,3 @@ inline void ClearText(u8 screen);
 s32 abs(s32 n);
 bool IsRectInScreen(s32 x, s32 y, s32 width, s32 height);
 
-#include "STDfunctions.cpp"
