@@ -66,6 +66,8 @@ int main(){
 	cells = new Cell[MAX_CELLS];
 	blobs = new Blob[MAX_BLOBS];
 
+
+
 	for(u8 i=0; i<5; i++){
 		cells[i].Set(fixed(32*i+16), fixed(16), fixed(16), TEAM_RED, fixed(10), fixed(10), 10);
 	}

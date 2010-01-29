@@ -1,0 +1,23 @@
+PAGfx Converter v0.9 -- by Mollusk -- resurrected by fincs -- forum.palib.info
+If you have suggestions, problems or anything please mail me at mollusk@palib.info
+
+Converting PAGfx.ini
+Transparent Color: Magenta
+
+6 sprites:
+  TextButtonBlue_L : 256colors, 16x32, Pal : TextButtonBlue_Pal, -> TextButtonBlue_L_Sprite
+  TextButtonBlue_M : 256colors, 16x32, Pal : TextButtonBlue_Pal, -> TextButtonBlue_M_Sprite
+  TextButtonBlue_R : 256colors, 16x32, Pal : TextButtonBlue_Pal, -> TextButtonBlue_R_Sprite
+  Blob : 256colors, 32x96, Pal : Blob_Pal, -> Blob_Sprite
+  Cell : 256colors, 32x96, Pal : Cell_Pal, -> Cell_Sprite
+  CellSelector : 256colors, 32x32, Pal : CellSelector_Pal, -> CellSelector_Sprite
+
+4 palettes:
+  TextButtonBlue_Pal, 28 colors
+  Blob_Pal, 4 colors
+  Cell_Pal, 52 colors
+  CellSelector_Pal, 30 colors
+
+Converted in 0 minutes and 0 seconds
+
+Finished!
