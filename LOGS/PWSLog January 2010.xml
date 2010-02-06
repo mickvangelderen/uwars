@@ -507,6 +507,23 @@
 	</entry>
 	<entry>
 		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>22</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>15</hour>
+			<minute>21</minute>
+		</start_time>
+		<duration>3011</duration>
+		<note>
+			Menu psuedocode uitgefigured..
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
 		<date>
 			<day>23</day>
 			<month_name_short>Jan</month_name_short>
@@ -572,6 +589,42 @@
 		<note>
 			Ipsum lorum alor si amet ofzo..
 			Euhm, ik heb echt veel dingen gedaan. Nieuwe template gemaakt, dingen bedacht met jelle. COMMENT FROM LOGMAKER: Please refrain from posting your emotions
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>25</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>8</hour>
+			<minute>45</minute>
+		</start_time>
+		<duration>7800</duration>
+		<note>
+			ALLES IS WEG OMDAT DIE ^@# COMPUTERS ALLEMAAL EVEN UITVIELEN, 2 uuurrrr werk
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<user>Jelle Licht</user>
+		<date>
+			<day>25</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>10</hour>
+			<minute>15</minute>
+		</start_time>
+		<duration>4002</duration>
+		<note>
+			Alles herschreven en gemaild. 
+			Blob class herschreven (2x)
+			Agent class
 		</note>
 	</entry>
 	<entry>
@@ -692,6 +745,23 @@
 		<duration>376</duration>
 		<note>
 			ETENSTIJD geen tijd voor log comments
+		</note>
+	</entry>
+	<entry>
+		<user>Mick van Gelderen</user>
+		<date>
+			<day>26</day>
+			<month_name_short>Jan</month_name_short>
+			<year>2010</year>
+		</date>
+		<start_time>
+			<hour>19</hour>
+			<minute>08</minute>
+		</start_time>
+		<duration>17198</duration>
+		<note>
+			Rot jelle had de trunk verwijderd, daar ben ik nog eens 1.5 uur mee bezig geweest om het allemaal te herstellen op mijn computer en een aantal files op de server. 
+			Virtual classes tutorials gelezen, moeilijk :O
 		</note>
 	</entry>
 	<entry>
