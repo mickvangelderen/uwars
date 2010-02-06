@@ -7,9 +7,9 @@
 # leave it as is (with ARM7_MP3 uncommented).
 #---------------------------------------------------------------------------------
 
-ARM7_SELECTED = ARM7_MP3
+#ARM7_SELECTED = ARM7_MP3
 #ARM7_SELECTED = ARM7_MP3_DSWIFI
-#ARM7_SELECTED = ARM7_MAXMOD_DSWIFI
+ARM7_SELECTED = ARM7_MAXMOD_DSWIFI
 
 #---------------------------------------------------------------------------------
 # If you're using EFS uncomment "USE_EFS = YES" here.

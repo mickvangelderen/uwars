@@ -4,6 +4,11 @@
 
 #include <PA9.h>
 //#include "fat.h"
+#include <maxmod9.h> // MaxMod include
+
+// Include the soundbank
+#include "soundbank_bin.h"
+#include "soundbank.h"
 
 #define LIBPATH C:/SVN/DS/Libraries
 #define LIB(x) <LIBPATH/x>
@@ -45,6 +50,10 @@ int main(){
 
     PA_InitText(DS_TOP, BG_TEXT);
 	PA_InitText(DS_BOTTOM, BG_TEXT);
+
+	mmInitDefaultMem((mm_addr)soundbank_bin);
+	mmLoad(MOD_ZELDA);
+	mmStart(MOD_ZELDA, MM_PLAY_LOOP);
 
 	//PA_InitRand();
 
