@@ -27,12 +27,12 @@ u16 GetNumberOfLevels();
 const LevelData * const GetLevel(u16 id);
 
 
-void ReadStr(char * const str, u16 * const strLen, FILE * const f){
+void ReadStr(char * str, u16 * const strLen, FILE * const f){
 	fread(strLen, sizeof(u16), 1, f);
 	if(*strLen){
-		str = new char[strLen+1];
+		str = new char[*strLen+1];
 		fread(str, sizeof(char), *strLen, f);
-		str[strLen] = '\0';
+		str[*strLen] = '\0';
 	}
 }
 
@@ -56,6 +56,6 @@ void WriteLevel(LevelData* level){
 		fwrite(&level->width, sizeof(u32), 1, f);
 		fwrite(&level->height, sizeof(u32), 1, f);
 		fwrite(&level->nCells, sizeof(u8), 1, f);
-		fwrite(&level->cells, sizeof(LevelCellData), nCells, f);
+		fwrite(&level->cells, sizeof(LevelCellData), level->nCells, f);
 	}
 }
