@@ -63,10 +63,6 @@
 				>
 			</File>
 			<File
-				RelativePath=".\source\LevelData.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\source\main.cpp"
 				>
 			</File>
@@ -86,10 +82,6 @@
 			</File>
 			<File
 				RelativePath=".\include\Cell.h"
-				>
-			</File>
-			<File
-				RelativePath=".\include\LevelData.h"
 				>
 			</File>
 			<File
@@ -140,15 +132,15 @@
 			>
 		</File>
 		<File
-			RelativePath=".\efsroot\Readme.txt"
-			>
-		</File>
-		<File
 			RelativePath=".\include\Readme.txt"
 			>
 		</File>
 		<File
 			RelativePath=".\music\Readme.txt"
+			>
+		</File>
+		<File
+			RelativePath=".\efsroot\Readme.txt"
 			>
 		</File>
 	</Files>

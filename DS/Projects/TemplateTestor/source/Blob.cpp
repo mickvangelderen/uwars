@@ -116,6 +116,11 @@ void Blob::Update(){
 		break;
 	case DESTINATION:
 		//Do stuff to target :D
+		m_target->Damage(Team(), m_str);
+
+
+
+
 		Reset();
 		break;
 	default:
