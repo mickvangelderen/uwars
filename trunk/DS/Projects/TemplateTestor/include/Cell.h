@@ -13,7 +13,7 @@ class Cell : public UnitBase{
 private:
 	static unitSpriteData uSD;
 
-	u32 m_str;
+	s32 m_str;
 	u32 m_capacity;
 	u32 m_growthRate;
 
@@ -40,7 +40,8 @@ public:
 	
 	void Send(Cell * const cell);
 	bool IsTouched();
-	//void Reset();
+	void Damage(TEAM team, u16 str);
+
 	void Update();
 };
 
