@@ -42,6 +42,8 @@ public:
 	bool IsTouched();
 	void Damage(TEAM team, u16 str);
 
+	void SetTeam(TEAM team);
+
 	void Update();
 };
 
