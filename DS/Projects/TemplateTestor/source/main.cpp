@@ -43,6 +43,8 @@ bool FAT_ENABLED;
 Cell * cells;
 Blob * blobs;
 
+void Game();
+
 int main(){
 	ScreenOut(DS_BTM);
 	ScreenOut(DS_TOP);
@@ -55,7 +57,7 @@ int main(){
 
 	mmInitDefaultMem((mm_addr)soundbank_bin);
 	mmLoad(MOD_ZELDA);
-	//mmStart(MOD_ZELDA, MM_PLAY_LOOP);
+	mmStart(MOD_ZELDA, MM_PLAY_LOOP);
 
 	//PA_InitRand();
 
@@ -73,9 +75,15 @@ int main(){
 	
 	PA_InitSpriteExtPrio(true);
 
+	
+	while(1) Game();
+}
+
+void Game(){
+	FadeIn();
+
 	Blob::CreateSpriteData((void*)Blob_Sprite, (void*)Blob_Pal, fixed(16), fixed(16), OBJ_SIZE_32X32, COLOR_MODE_256);
 	Cell::CreateSpriteData((void*)Cell_Sprite, (void*)Cell_Pal, fixed(16), fixed(16), OBJ_SIZE_32X32, COLOR_MODE_256);
-	
 
 	cells = new Cell[MAX_CELLS];
 	blobs = new Blob[MAX_BLOBS];
@@ -181,6 +189,8 @@ int main(){
 		//check for win
 		if(nBlueCells == 0 && nBlueBlobs == 0){
 			ErrorMsg(DS_TOP, "Red WINS!");
+			FadeOut();
+			
 			cells[0].SetTeam(TEAM_BLUE);
 			cells[2].SetTeam(TEAM_BLUE);
 			cells[4].SetTeam(TEAM_BLUE);
@@ -188,12 +198,14 @@ int main(){
 			cells[8].SetTeam(TEAM_BLUE);
 			cells[10].SetTeam(TEAM_BLUE);
 			cellSelection.Reset();
+
+			FadeIn();
 		}
 		else if(nRedCells == 0 && nRedBlobs == 0){
 			ErrorMsg(DS_TOP, "Blue WINS!");
 		}
 		PA_WaitForVBL();
 	}
-	
-}
 
+	FadeOut();
+}

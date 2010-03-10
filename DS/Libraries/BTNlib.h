@@ -8,6 +8,8 @@
 
 #include <PA9.h>
 
+#include "STDfunctions.h"
+
 class buttonGfx{
 private:
 	u8 m_screen;
@@ -25,12 +27,12 @@ public:
 
 class button{
 private:
-	u8 m_x, m_y;
-	char* m_text;
-	buttonGfx* m_gfx;
+	u8			m_x, m_y;
+	char	  * m_text;
+	buttonGfx * m_gfx;
 
-	u8* m_spriteIds;
-	u8 m_spriteIdsLength;
+	u8 * m_spriteIds;
+	u8	 m_spriteIdsLength;
 	
 public:
 	button();
@@ -43,4 +45,5 @@ public:
 	void RefreshText();
 
 	bool IsTouched();
+	bool StylusOn();
 };
