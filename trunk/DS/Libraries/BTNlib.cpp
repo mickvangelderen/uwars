@@ -10,6 +10,7 @@
 #include "STDfunctions.h"
  
 #include <cstring>
+#include "all_gfx.h"
 
 #include "BTNlib.h"
 
@@ -128,6 +129,10 @@ void button::RefreshText(){
 }
 
 bool button::IsTouched(){	
+	return StylusOn() && Stylus.Newpress;
+}
+
+bool button::StylusOn(){
 	if(	m_gfx->GetScreen()==DS_BOTTOM &&
 		m_spriteIds &&
 		Stylus.X >= (m_x<<3) &&
@@ -138,3 +143,4 @@ bool button::IsTouched(){
 	}
 	return false;
 }
+
