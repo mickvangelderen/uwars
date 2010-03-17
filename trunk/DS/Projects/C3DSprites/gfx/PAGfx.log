@@ -1,0 +1,20 @@
+PAGfx Converter v0.10 -- by Mollusk -- resurrected by fincs -- forum.palib.info
+If you have suggestions, problems or anything please come to the PAlib forums
+
+Converting PAGfx.ini
+Transparent Color: Magenta
+
+1 backgrounds:
+  BgGameStatic : EasyBg, 256x192, Pal: BgGameStatic_Pal, 768 tiles -> BgGameStatic_Tiles and BgGameStatic_Map
+
+3 textures:
+  Cell: 16bit, 32x96, -> Cell_Texture
+  Blob: 16bit, 32x96, -> Blob_Texture
+  CellSelector: 16bit, 32x32, -> CellSelector_Texture
+
+1 palettes:
+  BgGameStatic_Pal, 79 colors
+
+Converted in 0 minutes and 0 seconds
+
+Finished!
