@@ -13,13 +13,14 @@ class CLevelDataMap{
 public:
 	string m_name;
 	string m_description;
+	u8 m_level;
 	u32 m_width;
 	u32 m_height;
 	vector<CLevelDataCell> m_cells;
 public:
 	CLevelDataMap();
 	~CLevelDataMap();
-	void Set(string & name, string & description, u32 width, u32 height, vector<CLevelDataCell> & cells);
+	void Set(string & name, string & description, u8 level, u32 width, u32 height, vector<CLevelDataCell> & cells);
 	void Reset();
 	void Destroy();
 	void Write();

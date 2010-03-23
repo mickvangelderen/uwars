@@ -69,6 +69,7 @@ int main(){
 		case 2: {
 			lvl.m_name = QueryString("map name");
 			lvl.m_description = QueryString("map description");
+			lvl.m_level = QueryNumber("map level");
 			lvl.m_width = QueryNumber("map width");
 			lvl.m_height = QueryNumber("map height");
 			nCells = QueryNumber("the number of cells");
