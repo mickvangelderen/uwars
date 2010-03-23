@@ -11,7 +11,7 @@
 #include "StrLib.h"
 
 CLevelDataMap::CLevelDataMap()
-: m_name(""), m_description(""), 
+: m_name(""), m_description(""), m_level(0), 
 m_width(0), m_height(0), m_cells(){
 }
 
@@ -19,10 +19,11 @@ CLevelDataMap::~CLevelDataMap(){
 	Destroy();
 }
 
-void CLevelDataMap::Set(string & name, string & description, u32 width, u32 height, vector<CLevelDataCell> & cells){
+void CLevelDataMap::Set(string & name, string & description, u8 level, u32 width, u32 height, vector<CLevelDataCell> & cells){
 	Destroy();
 	this->m_name = name;
 	this->m_description = description;
+	this->m_level = level;
 	this->m_width = width;
 	this->m_height = height;
 	this->m_cells = cells;
@@ -49,6 +50,7 @@ void CLevelDataMap::Write(){
 	if(f){
 		WriteString(m_name, f);
 		WriteString(m_description, f);
+		fwrite(&m_level, sizeof(m_level), 1, f);
 		fwrite(&m_width, sizeof(m_width), 1, f);
 		fwrite(&m_height, sizeof(m_height), 1, f);
 		fwrite(&nCells, sizeof(nCells), 1, f);
@@ -68,6 +70,7 @@ void CLevelDataMap::Read(string & mapname){
 	if(f){
 		m_name = ReadString(f);
 		m_description = ReadString(f);
+		fread(&m_level, sizeof(m_level), 1, f);
 		fread(&m_width, sizeof(m_width), 1, f);
 		fread(&m_height, sizeof(m_height), 1, f);
 		u16 numberOfCells = 0;

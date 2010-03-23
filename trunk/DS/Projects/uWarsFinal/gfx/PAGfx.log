@@ -1,0 +1,48 @@
+PAGfx Converter v0.10 -- by Mollusk -- resurrected by fincs -- forum.palib.info
+If you have suggestions, problems or anything please come to the PAlib forums
+
+Converting PAGfx.ini
+Transparent Color: Magenta
+
+10 sprites:
+  s1: 256colors, 32x48, Pal: s1_Pal, -> s1_Sprite
+  s2: 256colors, 32x48, Pal: s1_Pal, -> s2_Sprite
+  s3: 256colors, 32x48, Pal: s1_Pal, -> s3_Sprite
+  BlueButton_0: 256colors, 16x96, Pal: ButtonBlue_Pal, -> BlueButton_0_Sprite
+  BlueButton_1: 256colors, 16x96, Pal: ButtonBlue_Pal, -> BlueButton_1_Sprite
+  BlueButton_2: 256colors, 16x96, Pal: ButtonBlue_Pal, -> BlueButton_2_Sprite
+  BlueNextButton_0: 256colors, 16x96, Pal: ButtonBlue_Pal, -> BlueNextButton_0_Sprite
+  BlueNextButton_1: 256colors, 16x96, Pal: ButtonBlue_Pal, -> BlueNextButton_1_Sprite
+  BluePrevButton_0: 256colors, 16x96, Pal: ButtonBlue_Pal, -> BluePrevButton_0_Sprite
+  BluePrevButton_1: 256colors, 16x96, Pal: ButtonBlue_Pal, -> BluePrevButton_1_Sprite
+
+5 backgrounds:
+  uWars_Bg_Menu_B : EasyBg, 256x192, Pal: uWars_Bg_Menu_B_Pal, 321 tiles -> uWars_Bg_Menu_B_Tiles and uWars_Bg_Menu_B_Map
+  uWars_Bg_Menu_T : EasyBg, 256x192, Pal: uWars_Bg_Menu_T_Pal, 767 tiles -> uWars_Bg_Menu_T_Tiles and uWars_Bg_Menu_T_Map
+  uWars_Bg_Game_B : EasyBg, 256x192, Pal: uWars_Bg_Game_B_Pal, 768 tiles -> uWars_Bg_Game_B_Tiles and uWars_Bg_Game_B_Map
+  uWars_Splash_Development : EasyBg, 256x192, Pal: uWars_Splash_Development_Pal, 396 tiles -> uWars_Splash_Development_Tiles and uWars_Splash_Development_Map
+  BgGameStatic : UnlimitedBg, 512x512, Pal: BgGameStatic_Pal, 3941 tiles -> BgGameStatic_Tiles and BgGameStatic_Map
+
+6 textures:
+  Cell_Neutral: 256colors, 64x64, Pal : Cell_Pal, -> Cell_Neutral_Texture
+  Cell_Red: 256colors, 64x64, Pal : Cell_Pal, -> Cell_Red_Texture
+  Cell_Blue: 256colors, 64x64, Pal : Cell_Pal, -> Cell_Blue_Texture
+  Blob_Red: 256colors, 32x32, Pal : Blob_Pal, -> Blob_Red_Texture
+  Blob_Blue: 256colors, 32x32, Pal : Blob_Pal, -> Blob_Blue_Texture
+  Cell_Selector: 256colors, 64x64, Pal : Cell_Selector_Pal, -> Cell_Selector_Texture
+
+10 palettes:
+  s1_Pal, 10 colors
+  ButtonBlue_Pal, 76 colors
+  uWars_Bg_Menu_B_Pal, 110 colors
+  uWars_Bg_Menu_T_Pal, 254 colors
+  uWars_Bg_Game_B_Pal, 79 colors
+  uWars_Splash_Development_Pal, 141 colors
+  BgGameStatic_Pal, 65 colors
+  Cell_Pal, 81 colors
+  Blob_Pal, 36 colors
+  Cell_Selector_Pal, 57 colors
+
+Converted in 0 minutes and 0 seconds
+
+Finished!
